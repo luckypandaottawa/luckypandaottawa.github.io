@@ -1,0 +1,40 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Cathy Beauty Inc.",
+          "meetings": 
+          [
+              {
+                "id":0,
+                "start":"2021-01-27T08:00:00-0500",
+                "end":"2021-01-27T10:00:00-0500",
+                "employee":{
+                    "id":0,
+                    "name":"Aaron",
+                    "__typename":""
+                },
+                "customer":{
+                    "id":1,
+                    "name":"Lily",
+                    "__typename":""
+                },               
+                "category":{
+                    "id":1,
+                    "name":"Eyelash",
+                    "__typename":""
+                },
+                "service":{
+                    "id":1,
+                    "name":"2D Extension",
+                    "__typename":""
+                },
+                "__typename":""
+              }
+          ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

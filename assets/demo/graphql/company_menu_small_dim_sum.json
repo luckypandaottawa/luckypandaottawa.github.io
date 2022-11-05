@@ -1,0 +1,41 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Yimin Dim Sum House",
+          "services": [
+            {
+                "__typename": "ServiceType",
+                "id": 1,
+                "name": "Small Dim Sum",
+                "image": "",
+                "type": 1,
+                "children": [
+                    {
+                        "__typename": "ServiceType",
+                        "id": 2,
+                        "name": "b",
+                        "color": null,
+                        "duration": 30,
+                        "price": 0,
+                        "type": 1,
+                        "children": [
+                            {
+                                "__typename": "ServiceType",
+                                "id": 3,
+                                "name": "c",
+                                "image": null,
+                                "price": 30,
+                                "type": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

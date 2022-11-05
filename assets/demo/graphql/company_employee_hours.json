@@ -1,0 +1,73 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Cathy Beauty Inc.",
+          "employees": [
+            {
+                "user":
+                {
+                  "id": 3,
+                  "name": "Aaron",
+                  "__typename":""
+                },
+                "hours":[
+                  {
+                    "weekday":0,
+                    "from":"10:00",
+                    "to":"18:00",
+                    "active":true,
+                    "__typename":""
+                  },
+                  {
+                    "weekday":1,
+                    "from":"10:00",
+                    "to":"18:00",
+                    "active":true,
+                    "__typename":""
+                  },
+                  {
+                    "weekday":2,
+                    "from":"10:00",
+                    "to":"18:00",
+                    "active":true,
+                    "__typename":""
+                  },
+                  {
+                    "weekday":3,
+                    "from":"10:00",
+                    "to":"18:00",
+                    "active":true,
+                    "__typename":""
+                  },
+                  {
+                    "weekday":4,
+                    "from":"10:00",
+                    "to":"18:00",
+                    "active":true,
+                    "__typename":""
+                  },
+                  {
+                    "weekday":5,
+                    "from":"10:00",
+                    "to":"18:00",
+                    "active":false,
+                    "__typename":""
+                  },
+                  {
+                    "weekday":6,
+                    "from":"10:00",
+                    "to":"18:00",
+                    "active":true,
+                    "__typename":""
+                  }
+                ],
+                "__typename":""
+            }
+          ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

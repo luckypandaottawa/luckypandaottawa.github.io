@@ -1,0 +1,94 @@
+{
+    "data":
+    {
+      "user": {
+          "id": 2,
+          "name": "lily",
+          "defaultPage":"main",
+          "employees": [
+              {
+                  "id": 1,
+                  "name": "Employee",
+                  "company": 
+                  {
+                    "id": 2,
+                    "name": "Store lily as Staff",
+                    "__typename":""
+                  },
+                  "access_level":
+                 {
+                    "id":2,
+                    "name":"Service Provider Commission",
+                    "isActive":true,
+                    "permissions":[
+                        {
+                            "name":"book-add",
+                            "__typename":""
+                        },
+                        {
+                            "name":"book-edit",
+                            "__typename":""
+                        },
+                        {
+                            "name":"book-cancel",
+                            "__typename":""
+                        },
+                        {
+                            "name":"customer-add",
+                            "__typename":""
+                        },
+                        {
+                            "name":"customer-edit",
+                            "__typename":""
+                        }
+                    ],
+                    "__typename":""
+                  },
+                  "__typename":""
+              },
+              {
+                "id": 2,
+                "name": "Employee",
+                "company": 
+                {
+                    "id": 2,
+                    "name": "Store lily as Owner",
+                    "__typename":""
+                },
+                "access_level":
+                {
+                    "id":1,
+                    "name":"Owner",
+                    "isActive":true,
+                    "permissions":[
+                        {
+                            "name":"book-add",
+                            "__typename":""
+                        },
+                        {
+                            "name":"book-edit",
+                            "__typename":""
+                        },
+                        {
+                            "name":"book-cancel",
+                            "__typename":""
+                        },
+                        {
+                            "name":"customer-add",
+                            "__typename":""
+                        },
+                        {
+                            "name":"customer-edit",
+                            "__typename":""
+                        }
+                    ],
+                    "__typename":""
+                },
+                "__typename":""
+              }
+          ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

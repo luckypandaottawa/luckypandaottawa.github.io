@@ -1,0 +1,51 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Cathy Beauty Inc.",
+          "employees": [
+            {
+                "user":
+                {
+                  "id": 3,
+                  "name": "Aaron",
+                  "avatar":"avatar/amyelsner.png",
+                  "email":"test@test.com",
+                  "birthdate":"1991-01-10",
+                  "gender":"male",
+                  "address":"111 xxx street, ottawa, ON",
+                  "mobile":"6131111111",
+                  "__typename":""
+                },
+                "access_level":{
+                  "name":"Service Privider Commission",
+                  "__typename":""
+                },
+                "__typename":""
+            },
+            {
+              "user":
+              {
+                "id": 4,
+                "name": "Lily",
+                "avatar":"avatar/amyelsner.png",
+                "email":"test@test.com",
+                "birthdate":"1991-01-10",
+                "gender":"female",
+                "address":"111 xxx street, ottawa, ON",
+                "mobile":"6131111111",
+                "__typename":""
+              },
+              "access_level":{
+                "name":"Service Privider Commission",
+                "__typename":""
+              },
+              "__typename":""
+          }
+        ],
+        "__typename":""
+      }
+    },
+    "res": ""
+  }

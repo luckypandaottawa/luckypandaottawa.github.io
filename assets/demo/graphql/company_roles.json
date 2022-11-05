@@ -1,0 +1,275 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Cathy Beauty Inc.",
+          "employees": [
+            {
+                "user":
+                {
+                    "id": 0,
+                    "name": "Aaron",
+                    "avatar":"avatar/amyelsner.png",
+                    "__typename":""
+                },
+                "access_level":
+                {
+                  "id":1,
+                  "name":"Owner",
+                  "isActive":true,
+                  "permissions":[
+                      {
+                          "name":"book-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-edit",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-cancel",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-edit",
+                          "__typename":""
+                      }
+                  ],
+                  "__typename":""
+                },
+                "__typename":""
+            },  
+            {
+                "user":
+                {
+                    "id": 2,
+                    "name": "jason",
+                    "avatar":"avatar/amyelsner.png",
+                    "__typename":""
+                },
+                  "access_level":
+                  {
+                    "id":2,
+                    "name":"Service Provider Commission",
+                    "isActive":true,
+                    "permissions":[
+                        {
+                            "name":"book-add",
+                            "__typename":""
+                        },
+                        {
+                            "name":"book-edit",
+                            "__typename":""
+                        },
+                        {
+                            "name":"book-cancel",
+                            "__typename":""
+                        },
+                        {
+                            "name":"customer-add",
+                            "__typename":""
+                        },
+                        {
+                            "name":"customer-edit",
+                            "__typename":""
+                        }
+                    ],
+                    "__typename":""
+                  },
+                  "__typename":""
+              },
+              {
+                "user":
+                {
+                    "id": 3,
+                    "name": "lily",
+                    "avatar":"avatar/annafali.png",
+                    "__typename":""
+                },
+                "access_level":
+                {
+                  "id":2,
+                  "name":"Service Provider Commission",
+                  "isActive":true,
+                  "permissions":[
+                      {
+                          "name":"book-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-edit",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-cancel",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-edit",
+                          "__typename":""
+                      }
+                  ],
+                  "__typename":""
+                },
+                "__typename":""
+              },
+              {
+                "user":
+                {
+                    "id": 4,
+                    "name": "Aaron",
+                    "avatar":"avatar/bernardodominic.png",
+                    "__typename":""
+                },
+                "access_level":
+                {
+                  "id":2,
+                  "name":"Service Provider Commission",
+                  "isActive":true,
+                  "permissions":[
+                      {
+                          "name":"book-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-edit",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-cancel",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-edit",
+                          "__typename":""
+                      }
+                  ],
+                  "__typename":""
+                },
+                "__typename":""
+              },
+              {
+                "user":
+                {
+                    "id": 5,
+                    "name": "Shihang",
+                    "avatar":"avatar/elwinsharvill.png",
+                    "__typename":""
+                },
+                "access_level":
+                {
+                  "id":2,
+                  "name":"Service Provider Commission",
+                  "isActive":true,
+                  "permissions":[
+                      {
+                          "name":"book-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-edit",
+                          "__typename":""
+                      },
+                      {
+                          "name":"book-cancel",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-add",
+                          "__typename":""
+                      },
+                      {
+                          "name":"customer-edit",
+                          "__typename":""
+                      }
+                  ],
+                  "__typename":""
+                },
+                "__typename":""
+              }
+          ],
+          "services": [
+              {
+                  "id": 1,
+                  "name": "Eyelash Extension",
+                  "color":"blue",
+                  "services": [
+                      {
+                          "id": 1,
+                          "name": "Hollywood Volume 2D-3D",
+                          "__typename":""
+                      },
+                      {
+                        "id": 2,
+                        "name": "Hollywood Volume 4D-6D",
+                        "__typename":""
+                      },
+                      {
+                        "id": 3,
+                        "name": "Classic",
+                        "__typename":""
+                      }
+                  ],
+                  "__typename":""
+              },
+              {
+                "id": 2,
+                "name": "Ting",
+                "color":"red",
+                "services": [
+                    {
+                        "id": 4,
+                        "name": "Lash Tint",
+                        "__typename":""
+                    }
+                ],
+                "__typename":""
+            }
+          ],
+          "meetings": 
+          [
+              {
+                "id":0,
+                "start":"2021-01-27T08:00:00-0500",
+                "end":"2021-01-27T10:00:00-0500",
+                "employee":{
+                    "id":0,
+                    "name":"Aaron",
+                    "__typename":""
+                },
+                "customer":{
+                    "id":1,
+                    "name":"Lily",
+                    "__typename":""
+                },               
+                "service":{
+                    "id":1,
+                    "name":"Eyelash",
+                    "service":{
+                        "id":1,
+                        "name":"2D Extension",
+                        "__typename":""
+                    },
+                    "__typename":""
+                },
+                "__typename":""
+              }
+          ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

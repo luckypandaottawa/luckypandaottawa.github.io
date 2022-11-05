@@ -1,0 +1,65 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Cathy Beauty Inc.",
+          "customers": [
+            {
+                "user":
+                {
+                  "id": 3,
+                  "name": "Aaron",
+                  "avatar":"avatar/amyelsner.png",
+                  "email":"test@test.com",
+                  "birthdate":"1991-01-10",
+                  "gender":"male",
+                  "address":"111 xxx street, ottawa, ON",
+                  "mobile":"6131111111",
+                  "__typename":""
+                },
+                "date_last_visit": "2015-09-13",
+                "date_since": "2015-09-13",
+                "membership":true,
+                "referredby":"desen",
+                "tags":"xxx",
+                "appbooked":3,
+                "pointsearned":100,
+                "amountpaid":1000,
+                "number_booking":10,
+                "number_cancelled":0,
+                "number_no_shows":0,
+                "__typename":""
+            },
+            {
+              "user":
+              {
+                "id": 4,
+                "name": "Lily",
+                "avatar":"avatar/amyelsner.png",
+                "email":"test@test.com",
+                "birthdate":"1991-01-10",
+                "gender":"male",
+                "address":"111 xxx street, ottawa, ON",
+                "mobile":"6131111111",
+                "__typename":""
+              },
+              "date_last_visit": "2015-09-13",
+              "date_since": "2015-09-13",
+              "membership":true,
+              "referredby":"desen",
+              "tags":"xxx",
+              "appbooked":34,
+              "pointsearned":101,
+              "amountpaid":1001,
+              "number_booking":10,
+              "number_cancelled":1,
+              "number_no_shows":2,
+              "__typename":""
+            }
+          ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

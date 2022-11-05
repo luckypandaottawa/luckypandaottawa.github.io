@@ -1,0 +1,241 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Yimin Dim Sum House",
+          "services": [
+            {
+                "__typename": "ServiceType",
+                "id": 1,
+                "name": "Small Dim Sum",
+                "image": "1.jpeg",
+                "type": 1,
+                "children": [
+                    {
+                        "__typename": "ServiceType",
+                        "id": 101,
+                        "name": "S1. Steam B.B.Q. Pork Buns (2 pcs)",
+                        "image": "101.jpeg",
+                        "price": 5.5,
+                        "type": 0
+                    },
+                    {
+                      "__typename": "ServiceType",
+                      "id": 102,
+                      "name": "S2. Steam Sweet Custard Buns (3 pcs)",
+                      "image": "102.jpeg",
+                      "price": 5.5,
+                      "type": 0
+                    },
+                    {
+                      "__typename": "ServiceType",
+                      "id": 103,
+                      "name": "S3. Steam Sweet Lotus Seed Buns (3 pcs)",
+                      "image": "103.jpeg",
+                      "price": 5.5,
+                      "type": 0
+                    }
+                ]
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 2,
+              "name": "Medium Dim Sum Orders",
+              "image": "2.jpeg",
+              "type": 1,
+              "children": [
+                {
+                    "__typename": "ServiceType",
+                    "id": 201,
+                    "name": "M1. Chicken Feet With Black Bean Sauce",
+                    "image": "201.jpeg",
+                    "price": 6,
+                    "type": 0
+                },
+                {
+                  "__typename": "ServiceType",
+                  "id": 202,
+                  "name": "M2. Spare Rib With Black Bean Sauce",
+                  "image": "202.jpeg",
+                  "price": 6,
+                  "type": 0
+                },
+                {
+                  "__typename": "ServiceType",
+                  "id": 203,
+                  "name": "M3. Steamed Bean Curd Rolls With Pork (3 pcs)",
+                  "image": "203.jpeg",
+                  "price": 6,
+                  "type": 0
+                }
+            ]
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 3,
+              "name": "Large Dim Sum Orders",
+              "image": "3.jpeg",
+              "type": 1,
+              "children": [
+                {
+                    "__typename": "ServiceType",
+                    "id": 301,
+                    "name": "L1. Shrimp Shiu Mai (4 pcs)",
+                    "image": "",
+                    "price": 6.55,
+                    "type": 0
+                },
+                {
+                  "__typename": "ServiceType",
+                  "id": 302,
+                  "name": "L2. Shrimp Har Gow (4 pcs)",
+                  "image": "",
+                  "price": 6.55,
+                  "type": 0
+                },
+                {
+                  "__typename": "ServiceType",
+                  "id": 303,
+                  "name": "L3. Shrimp & Chive Dumplings (3 pcs)",
+                  "image": "",
+                  "price": 6.55,
+                  "type": 0
+                }
+              ]
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 4,
+              "name": "Chef's Specials",
+              "image": "4.jpeg",
+              "type": 1,
+              "children": [
+                  {
+                      "__typename": "ServiceType",
+                      "id": 401,
+                      "name": "E1. Deep-fried Shrimp Wontons (6 pcs)",
+                      "image": "",
+                      "price": 7.75,
+                      "type": 0
+                  },
+                  {
+                    "__typename": "ServiceType",
+                    "id": 402,
+                    "name": "E2. Deep Fried Squid Tentacles",
+                    "image": "",
+                    "price": 7.75,
+                    "type": 0
+                  },
+                  {
+                    "__typename": "ServiceType",
+                    "id": 403,
+                    "name": "E3. Sticky Rice in Lotus Leaf (2 pcs)",
+                    "image": "",
+                    "price": 7.25,
+                    "type": 0
+                  }
+              ]
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 5,
+              "name": "Vegetables",
+              "image": "5.jpeg",
+              "type": 1,
+              "children": [
+                  {
+                      "__typename": "ServiceType",
+                      "id": 501,
+                      "name": "V1. Choy Sum with Oyster Sauce",
+                      "image": "",
+                      "price": 9,
+                      "type": 0
+                  },
+                  {
+                    "__typename": "ServiceType",
+                    "id": 502,
+                    "name": "V2. Chinese Broccoli with Oyster Sauce",
+                    "image": "",
+                    "price": 9,
+                    "type": 0
+                  },
+                  {
+                    "__typename": "ServiceType",
+                    "id": 503,
+                    "name": "V3. Stir Fried Mixed Vegetable",
+                    "image": "",
+                    "price": 12.75,
+                    "type": 0
+                  }
+              ]
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 6,
+              "name": "Congee & Noodle Soups",
+              "image": "6.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 7,
+              "name": "Rice Dishes",
+              "image": "7.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 8,
+              "name": "Szehcuan Spicy Style",
+              "image": "8.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 9,
+              "name": "Rice/Rice Roll with Casserole",
+              "image": "9.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 10,
+              "name": "Cantonese-Style Dishes",
+              "image": "10.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 11,
+              "name": "House Specials",
+              "image": "11.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 12,
+              "name": "Dinner Combos",
+              "image": "12.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 13,
+              "name": "Desserts",
+              "image": "13.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 14,
+              "name": "Beverages",
+              "image": "14.jpeg",
+              "type": 1
+            }
+        ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

@@ -1,0 +1,134 @@
+{
+    "data":
+    {
+      "company": {
+          "id": 2,
+          "name": "Yimin Dim Sum House",
+          "services": [
+            {
+                "__typename": "ServiceType",
+                "id": 1,
+                "name": "Small Dim Sum",
+                "image": "1.jpeg",
+                "type": 1,
+                "children": [
+                    {
+                        "__typename": "ServiceType",
+                        "id": 2,
+                        "name": "b",
+                        "color": null,
+                        "duration": 30,
+                        "price": 0,
+                        "type": 1,
+                        "children": [
+                            {
+                                "__typename": "ServiceType",
+                                "id": 3,
+                                "name": "c",
+                                "color": null,
+                                "duration": 30,
+                                "price": 30,
+                                "type": 0,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 2,
+              "name": "Medium Dim Sum Orders",
+              "image": "2.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 3,
+              "name": "Large Dim Sum Orders",
+              "image": "3.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 4,
+              "name": "Chef's Specials",
+              "image": "1.jpeg",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 5,
+              "name": "Vegetables",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 6,
+              "name": "Congee & Noodle Soups",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 7,
+              "name": "Rice Dishes",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 8,
+              "name": "Szehcuan Spicy Style",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 9,
+              "name": "Rice/Rice Roll with Casserole",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 10,
+              "name": "Cantonese-Style Dishes",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 11,
+              "name": "House Specials",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 12,
+              "name": "Dinner Combos",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 13,
+              "name": "Desserts",
+              "image": "",
+              "type": 1
+            },
+            {
+              "__typename": "ServiceType",
+              "id": 14,
+              "name": "Beverages",
+              "image": "",
+              "type": 1
+            }
+        ],
+          "__typename":""
+      }
+    },
+    "res": ""
+  }

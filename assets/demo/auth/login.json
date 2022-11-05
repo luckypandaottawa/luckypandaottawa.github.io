@@ -1,0 +1,7 @@
+{
+    "accssToken": {
+      "expiresIn":7200,
+      "token":"fake-token"
+    },
+    "refreshToken": "fake-refresh-token"
+}
